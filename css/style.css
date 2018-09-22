@@ -1,0 +1,177 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	min-height: 100px;
+	background-color: #FFFFFF
+	
+}
+
+.wrapper{
+	width: 95%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.logo{
+	width: 20%;
+	float: left;
+
+	padding-top: 15px;
+}
+
+.logo img{
+	width: 100%;
+}
+
+.menu{
+	width: 60%;
+	float: right;
+	padding-top: 35px;
+}
+
+.menu ul{
+	list-style: none;
+}
+
+.menu ul li{
+	
+	float: left;
+	/*padding: 0 15px;*/
+	display: block;
+}
+
+.menu ul li a{
+	text-decoration: none;
+	display: block;
+	padding: 0 15px;
+	transition: .5s;
+	color: #4FBEF5;
+}
+
+.menu ul li a:hover {
+	color: #333333;
+}
+
+/*.menu ul li:last-child a{*/
+	/*color: red;*/
+/*}*/
+
+#banner{
+	min-height: 400px;
+	background-image: url(../image/banner.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.ad{
+	width: 25%;
+	margin: 100px 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	overflow: hidden;
+
+}
+
+.b_text{
+	
+}
+
+.b_text h1{
+	/*font-size: 20px;*/
+	color:#00ABF6;
+	padding-top: 20px;
+	padding-left: 40px;
+	padding-bottom:  15px;
+}
+
+.p_text p{
+	color: white;
+	padding-left: 15px;
+	padding-bottom: 40px;
+}
+
+button{
+	padding: 10px 20px;
+	margin-left: 90px;
+    margin-bottom: 10px;
+    background-color:  #3D4351;
+    border: none;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#service{
+	overflow: hidden;
+	margin-bottom: 100px;
+}
+
+.service1{
+	width: 25%;
+	overflow: hidden;
+	float: left;
+	padding-left: 90px;
+	padding-top: 50px;
+	margin-bottom: 5px;
+}
+
+.dialog{
+	width: 80%;
+	min-height: 80px;
+}
+
+.dialog h3{
+	padding-top: 50px;
+    padding-left: 110px
+}
+
+.picture{
+	width: 100%;
+	min-height: 80px;
+	padding-bottom: 30px;
+
+}
+
+.picture img{
+	width: 100%;
+	height: 150px;
+	
+}
+
+.service1 p{
+	margin-bottom: 50px;
+}
+.footer{
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+
+.copyright{
+	
+	width: 100%;
+	/*overflow: hidden;*/
+	margin: 0 auto;
+	padding-left: 525px;
+	
+}
+
+.ads{
+	width: 100%;
+	/*overflow: hidden;*/
+	margin: 0 auto;
+	padding-left: 525px;
+	
+}
+	
+.social_media{
+	width: 100%;
+	/*overflow: hidden;*/
+	margin: 0 auto;
+	padding-left: 625px;
+
+}
+
